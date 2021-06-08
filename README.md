@@ -28,24 +28,24 @@ https://github.com/burnash/gspread
 
 User Scope :
 ############USER INPUT#############################
+>
+> dir_path = r""  #path for the oauth2client key
 
-dir_path = r""  #path for the oauth2client key
+> ip_source_sheet_link = ""           #for example any" link
 
-ip_source_sheet_link = ""           #for example any" link
+> ip_source_sheet_link_name = ""      #for example "for example any" Name
 
-ip_source_sheet_link_name = ""      #for example "for example any" Name
+> destination_sheet_link = ""         #for example "for example any" link
 
-destination_sheet_link = ""         #for example "for example any" link
-
-destination_sheet_link_name = ""    #for example "for example any" Name
+> destination_sheet_link_name = ""    #for example "for example any" Name
 
 ############USER INPUT End's##########################
 
 Windows Task scheduler 
 
->Create a bat file 
+Create a bat file 
 
-_"C:\Python27\python.exe" "\path\to\master_ping.py"
+> _"C:\Python27\python.exe" "\path\to\master_ping.py"
 pause_
 
 Schedule a auto trigger using Windows Task scheduler 
