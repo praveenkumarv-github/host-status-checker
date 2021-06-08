@@ -293,18 +293,3 @@ for ip in validIP :
 
 
 
-
-
-# sender_email = "praveenv@botvfx.com"
-# rec_email = "divya@botvfx.com"
-# password = "B0tvfx01"
-# # password = input(str("Please enter your password : "))
-# message = "Hey, this was sent using python"
-
-# server = smtplib.SMTP('smtp.gmail.com', 587)
-# server.starttls()
-# server.login(sender_email, password)
-# print("Login success")
-# server.sendmail(sender_email, rec_email, message)
-# print("Email has been sent to ", rec_email)
-
